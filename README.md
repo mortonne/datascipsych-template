@@ -5,6 +5,10 @@ Final project for Data Science for Psychology course
 
 The data are included in the project under `src/project/Polyn_2011_score.csv`. After the project is installed, you can use `project.task.get_data_file()` to get the filepath to the data file.
 
+The data are converted from the raw data available from the Penn Computational Memory Lab's [data archive](https://memory.psych.upenn.edu/Data_Archive).
+
+Polyn, S. M., Erlikhman, G. & Kahana, M. J. Semantic cuing and the scale insensitivity of recency and contiguity. J Exp Psychology Learn Mem Cognition 37, 766 (2011). https://psycnet.apa.org/doi/10.1037/a0022475
+
 ### Data dictionary
 
 subject
