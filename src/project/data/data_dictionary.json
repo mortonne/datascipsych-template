@@ -13,7 +13,7 @@
     },
     "input": {
         "LongName": "Input position",
-        "Description": "List position of a presented item (n/a for repeats and intrusions)"
+        "Description": "Serial position of a presented item (n/a for repeats and intrusions)"
     },
     "output": {
         "LongName": "Output position",
