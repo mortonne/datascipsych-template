@@ -1,0 +1,67 @@
+{
+    "subject": {
+        "LongName": "Subject",
+        "Description": "Subject identification number"
+    },
+    "list": {
+        "LongName": "List",
+        "Description": "List number"
+    },
+    "item": {
+        "LongName": "Item",
+        "Description": "Presented or recalled item"
+    },
+    "input": {
+        "LongName": "Input position",
+        "Description": "List position of a presented item (n/a for repeats and intrusions)"
+    },
+    "output": {
+        "LongName": "Output position",
+        "Description": "Position of a recalled item during recall (n/a if item presented but not recalled)"
+    },
+    "study": {
+        "LongName": "Item studied",
+        "Description": "Indicator of whether an item was studied",
+        "Levels": {
+            "true": "Item was studied in the current list",
+            "false": "Item was not studied in the current list (or item is a repeat of a previous recall)"
+        }
+    },
+    "recall": {
+        "LongName": "Item recalled",
+        "Description": "Indicator of whether an item was recalled",
+        "Levels": {
+            "true": "Item was recalled after list presentation (may be a repeat or intrusion)",
+            "false": "Item was not recalled after list presentation"
+        }
+    },
+    "repeat": {
+        "LongName": "item repeated",
+        "Description": "Number of times this item has been repeated during recall at this output posiiton"
+    },
+    "intrusion": {
+        "LongName": "Item intruded",
+        "Description": "Indicator of whether an item was an intrusion not from the current list",
+        "Levels": {
+            "true": "Item was not presented in the current list, but was recalled",
+            "false": "Item was not an intrusion"
+        }
+    },
+    "task": {
+        "LongName": "Task",
+        "Description": "Task condition of the current list",
+        "Levels": {
+            "1": "Uncategorized",
+            "2": "Categorized",
+            "3": "Recall-by-category"
+        }
+    },
+    "category": {
+        "LongName": "Stimulus category",
+        "Description": "Category of this item (n/a for intrusions)"
+    },
+    "period": {
+        "LongName": "Recall period",
+        "Description": "Number of the recaall period of this item's category (or recall period in which an intrusion was made)"
+    }
+}
