@@ -1,6 +1,10 @@
 # datascipsych-template
 Final project for Data Science for Psychology course
 
+## Installation
+
+(Explain here how another student can install your package and run your analysis notebook. You can assume that they are using Visual Studio Code.)
+
 ## Data
 
 The data are included in the project under `src/project/Polyn_2011_score.csv`. After the project is installed, you can use `project.task.get_data_file()` to get the filepath to the data file.
