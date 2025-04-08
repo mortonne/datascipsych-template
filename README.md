@@ -46,3 +46,6 @@ category
 
 period
 : if this was a recall-by-category list (task code=3), indicates the recall period that the category was cued
+
+category_input
+: position that the item was presented, relative to other items from the same category in the list

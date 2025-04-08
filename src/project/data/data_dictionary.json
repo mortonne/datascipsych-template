@@ -63,5 +63,9 @@
     "period": {
         "LongName": "Recall period",
         "Description": "Number of the recaall period of this item's category (or recall period in which an intrusion was made)"
+    },
+    "category_input": {
+        "LongName": "Category input position",
+        "Description": "Serial position of a presented item, relative to other items in the same category (n/a for repeats and intrusions)"
     }
 }
