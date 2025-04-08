@@ -3,7 +3,7 @@ Final project for Data Science for Psychology course
 
 ## Installation
 
-(Explain here how another student can install your package and run your analysis notebook. You can assume that they are using Visual Studio Code.)
+(Explain here how another student can install your package and run your analysis notebook. You can assume that they are using Visual Studio Code and that they have downloaded a zip file of your project.)
 
 ## Data
 
